@@ -1,0 +1,16 @@
+{
+  "name": "hltvparser",
+  "version": "0.0.0",
+  "description": "Simple hltv.org parser",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Egor Ivanov",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
